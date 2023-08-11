@@ -1,0 +1,40 @@
+.menu {
+    display: none;
+}
+
+.image__wrapper {
+    position: relative;
+    max-width: max-content;
+}
+
+.image__wrapper img, .image-constructor {
+    width: 100%;
+}
+
+.image-constructor__btn {
+    width: 25px;
+    height: 25px;
+    outline: none;
+    border: 2px solid #000;
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: -5px;
+    display: none;
+}
+
+.image-constructor #image-constructor__rotate-btn {
+    background-image: url("../images/rotate_icon.png");
+    cursor: pointer;
+}
+
+.image-constructor #image-constructor__scaling-btn {
+    background-image: url("../images/scaling_icon.png");
+    cursor: nwse-resize;
+}
+
+.move-image {
+    cursor: move;
+}
